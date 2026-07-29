@@ -1,0 +1,115 @@
+.main-header {
+  margin-top: 6px;
+  background-color: #e68ba0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  background-image: url(images/burgers2.avif);
+}
+.transparent {
+  /* From https://css.glass */
+  background: rgba(220, 141, 227, 0.219);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.navbar {
+  background-color: #e5aeff; 
+}
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #e5aeff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-background {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+}
+.img-fluid {
+  border-radius: 15px;
+  margin-right: 35px;
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  border: 8px solid #eb93df;
+  margin-top: 50px;
+}
+.main-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.main-paragraph {
+  font-family: Arial, sans-serif;
+  color: #21023a;
+  line-height: 1.6;
+}
+.main-paragraph-pic {
+  font-family: Arial, sans-serif;
+  color: #21023a;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.main-picture {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1d1c1c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.container2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 198, 250, 0.6);
+  padding: 4px;
+}
+.container3 {
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+}
+
+.footer-text {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.container-footer {
+  margin-top: 30px;
+  background-color: #e5aeff;
+  border-radius: 10px;
+  padding: 20px;
+}
+.table-responsive {
+  background-color: rgba(244, 217, 245, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+main {
+  min-height: calc(100vh - 200px);
+ }
+
+footer {
+  margin-top: 40px;
+}
